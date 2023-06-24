@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display:flex;
+    justify-content: flex;
+    height: 50px;
+    background-color: rgb(51,0,111);
+    gap: 10px;
+    padding: 10px;
+    align-items: stretch;
+    margin-top: 0;
+}
+
+.item {
+    flex-grow: 1;
+}
+
+.but {
+    background: rgb(232,211,162);
+    color: rgb(51,0,111);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.but span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.but span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.but:hover span {
+    padding-right: 25px;
+}
+
+.but:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+.startSpace {
+    position: relative;
+    height: 800px;
+    display: flex;
+}
+.background-image {
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?cs=srgb&dl=pexels-toni-cuenca-585752.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.startSpace #fullStack {
+    display: flex;
+    align-self: center;
+    height: 200px;
+    width: 300px;
+    flex-direction: column;
+    align-self: center;
+}
+
+.startSpace #fullStack #fullandcomment {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.startSpace #fullStack #shortSummaries {
+    background-color: rgb(232,211,162);
+    font-size: 20px;
+    padding: 20px;
+    width: 350px;
+    gap: 30px;
+}
+.content {
+    z-index: 1;
+}
+
+.corner-image {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#name {
+    font-size: 70px;
+    width: 800px;
+    height: 50px;
+    margin: 10px;
+}
+
+#footer {
+    background-color: rgb(51, 0, 111);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+.eduStarter {
+    position: relative;
+    height: 800px;
+    display: flex;
+}
+
+.eduback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701652553.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.75;
+}
+
+.uwleft {
+    background-color: rgb(232,211,162);
+    width: 40%;
+    height: 40%;
+    display: flex;
+    z-index: 1;
+}
+.uwright {
+    position: absolute;
+    background-color: rgb(51, 0, 111);
+    height: 40%;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.eduHeading {
+    position: absolute;
+    top: 43%;
+    left: 39%;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.leftcontent {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.rightcontent {
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 80%;
+}
+
+#skillslist {
+    font-size: 20px;
+    
+}
+#edudisc {
+    display: flex;
+    text-align: center;
+}

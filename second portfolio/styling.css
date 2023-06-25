@@ -108,7 +108,6 @@
 
 #name {
     font-size: 70px;
-    width: 800px;
     height: 80px;
     margin: 10px;
 }
@@ -201,8 +200,8 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
     background-color: transparent;
 }
 .bottom {

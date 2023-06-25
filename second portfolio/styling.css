@@ -213,7 +213,6 @@
     align-items: center;
     color: white;
     text-align: center;
-    justify-content: center;
     overflow: scroll;
     padding: 50px;
 }

@@ -211,9 +211,11 @@
     padding: 20px;
     background-color: #303655;
     display: flex;
-    flex-direction: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     color: white;
+    text-align: center;
+    justify-content: center;
 }
 
 .OOP,
